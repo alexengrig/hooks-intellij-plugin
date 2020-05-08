@@ -1,0 +1,7 @@
+/build/
+
+# Gradle wrapper
+/.gradle/
+/gradle/
+/gradlew
+/gradlew.bat
