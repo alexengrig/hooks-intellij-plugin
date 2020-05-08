@@ -1,0 +1,6 @@
+<idea-plugin>
+  <id>dev.alexengrig.intellij.hooks</id>
+  <name>Hooks</name>
+  <vendor email="alexengrigdev@gmail.com" url="https://github.com/alexengrig">Alexengrig Dev.</vendor>
+  <depends>com.intellij.modules.platform</depends>
+</idea-plugin>
