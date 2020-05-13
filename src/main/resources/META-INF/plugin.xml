@@ -3,4 +3,9 @@
   <name>Hooks</name>
   <vendor email="alexengrigdev@gmail.com" url="https://github.com/alexengrig">Alexengrig Dev.</vendor>
   <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <prePushHandler implementation="dev.alexengrig.intellij.hooks.MyPrePushHandler"/>
+    <projectConfigurable instance="dev.alexengrig.intellij.hooks.PrePushProjectConfiguration"/>
+    <projectService serviceImplementation="dev.alexengrig.intellij.hooks.MyPrePushService"/>
+  </extensions>
 </idea-plugin>
